@@ -35,7 +35,7 @@
 # github地址, 头部导航右上角的github链接
 Github: 
   on: true
-  url: https://github.com/yuang01/hexo-theme-bamboo
+  url: https://space.bilibili.com/1301256583?spm_id_from=333.1007.0.0
 
 # 网站logo
 logo: /medias/logo.png # 为空则不显示
@@ -60,11 +60,11 @@ sidebar:
       order:  # 卡片排序, 数值越小，越在上面
       social:
         - icon: fas fa-rss
-          url: /atom.xml
+          url: 
         - icon: fas fa-envelope
           url: mailto:2764358309@qq.com
-        - icon: fab fa-github
-          url: 
+        - icon: fab fa-bilibili
+          url: https://space.bilibili.com/1301256583?spm_id_from=333.1007.0.0
         - icon: fab fa-qq
           url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2764358309
     # ---------------------------------------
@@ -198,7 +198,7 @@ swiper:
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '缘' # 标题
-  defaultDesc: ['住在布达拉宫，我是雪域最大的王'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultDesc: ['我问佛:为什么每次下雪都是我不在意的夜晚'，'佛说:不经意的时候人们总会错过很多真正的美丽'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
   defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
@@ -239,7 +239,7 @@ show_count: true
 
 # 打赏功能
 donate:
-  on: true
+  on: false
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
 Alipay: ''
@@ -248,7 +248,7 @@ WeChatpay: ''
 
 # 分享功能
 sharejs: 
-  on: true
+  on: false
   sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
 
 # 鼠标点击特效
@@ -284,7 +284,7 @@ ribbon:
 
 # live-2d(左下角动画人物)
 live2d:
-  on: false # 控制显示或者隐藏
+  on: true # 控制显示或者隐藏
   modelId:  # 0 or 1 or 2 or 3 or 4 or 5 or 6
   open: true # 默认展开，false则收缩，通过点左下角的方块点击，控制展开或者收缩
 
@@ -364,7 +364,7 @@ motto:
 
 # 首页公告
 notice:
-  on: true
+  on: false
   seamless: false # 为true时，则无缝不停止滚动，false是会停一下的滚动
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
